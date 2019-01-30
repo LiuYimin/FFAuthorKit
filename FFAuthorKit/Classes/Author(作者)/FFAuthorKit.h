@@ -1,12 +1,12 @@
 //
-//  FFSpecialKit.h
+//  FFAuthorKit.h
 //  Pods
 //
 //  Created by Liu on 2019/1/29.
 //
 
-#ifndef FFSpecialKit_h
-#define FFSpecialKit_h
+#ifndef FFAuthorKit_h
+#define FFAuthorKit_h
 
 #import <Masonry/Masonry.h>
 #import <FFCategoryKit/FFCategoryKit-umbrella.h>
@@ -17,4 +17,4 @@
 #import <YYWebImage/YYWebImage.h>
 #import <FFAPIsKit/FFAPIsKit-umbrella.h>
 
-#endif /* FFSpecialKit_h */
+#endif /* FFAuthorKit_h */

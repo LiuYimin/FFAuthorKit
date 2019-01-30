@@ -7,7 +7,7 @@
 //
 
 #import "FFAuthorController.h"
-#import "FFSpecialKit.h"
+#import "FFAuthorKit.h"
 #import "AuthorAPIRequest.h"
 #import "FFAuthorListReformer.h"
 // view

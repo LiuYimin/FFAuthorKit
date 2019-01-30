@@ -158,7 +158,7 @@
 		5925F44C71B01CC598A34EE943D85822 /* YYCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC59020D71F11DC475CB38ED7BF6B3E8 /* YYCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		592FD5F268AC107FEDA5540421D2A721 /* RACQueueScheduler+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C3A684D0224F5F840B79A40C0E7180 /* RACQueueScheduler+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		592FF42C468CB9621F6F850535F5E92B /* UISwitch+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F4AE264D54C13B53E9429C9F755320 /* UISwitch+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A1C420C220189720095AE66 /* FFSpecialKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1C420B220189350095AE66 /* FFSpecialKit.h */; };
+		5A1C420C220189720095AE66 /* FFAuthorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1C420B220189350095AE66 /* FFAuthorKit.h */; };
 		5A64569E5C2A5B8CFA8B979A78BDC5A0 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB3C5FE0563B2E29B9BD1580BB88205 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A7267D1ADA788A85741BF31425C4F5A /* UISwitch+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EECD553185726752FBFB58EE17DC35 /* UISwitch+RACSignalSupport.m */; };
 		5B2D0C3E0EB7E46EC2215BCF38D5D608 /* UIButton+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FBD878E525DD2C872FB4CC145CB53 /* UIButton+YYWebImage.m */; };
@@ -882,7 +882,7 @@
 		590C816EFF3C77DBEC5E7EC6C1213A91 /* FFMainView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFMainView-dummy.m"; sourceTree = "<group>"; };
 		59643F0DEB3052D952F40893414367E4 /* RACStringSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACStringSequence.h; path = ReactiveCocoa/RACStringSequence.h; sourceTree = "<group>"; };
 		5996D5370F573038DDFA623ECE55F7BA /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		5A1C420B220189350095AE66 /* FFSpecialKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FFSpecialKit.h; path = "FFAuthorKit/Classes/Author(作者)/FFSpecialKit.h"; sourceTree = "<group>"; };
+		5A1C420B220189350095AE66 /* FFAuthorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FFAuthorKit.h; path = "FFAuthorKit/Classes/Author(作者)/FFAuthorKit.h"; sourceTree = "<group>"; };
 		5A421E8194ED7DD2A99B7157A6431A4E /* FFAuthorCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FFAuthorCell.m; sourceTree = "<group>"; };
 		5B4629E60FBA8BEA6147DF5D8676759E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
 		5B62275FDF08D6CEA40DAC69CD090E24 /* CALayer+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+YYWebImage.h"; path = "YYWebImage/Categories/CALayer+YYWebImage.h"; sourceTree = "<group>"; };
@@ -2074,7 +2074,7 @@
 		B45FDCA071DB0169BD70FB03E4C61C14 /* FFAuthorKit */ = {
 			isa = PBXGroup;
 			children = (
-				5A1C420B220189350095AE66 /* FFSpecialKit.h */,
+				5A1C420B220189350095AE66 /* FFAuthorKit.h */,
 				82026D3010AED3C24E81C28E7D52C954 /* Detail */,
 				FDCBA17B7B3B2D871C2C1810A3855880 /* Mainpage */,
 				E8BC5DF813001345C12B16FEEE51EEBD /* Pod */,
@@ -2631,7 +2631,7 @@
 				F06DDEC050EB20B50F624875264CD4E7 /* FFAuthorCell.h in Headers */,
 				D02F7FD396FB78C5C970A43A261A269E /* FFAuthorController.h in Headers */,
 				DF013EFAAE51EF5ED56CC26F595CA2D2 /* FFAuthorDetailController.h in Headers */,
-				5A1C420C220189720095AE66 /* FFSpecialKit.h in Headers */,
+				5A1C420C220189720095AE66 /* FFAuthorKit.h in Headers */,
 				C4B115D1DB4F2ABF5CC349C1228C5A22 /* FFAuthorKit-umbrella.h in Headers */,
 				6C16C150D8C1AFF110AE0A964874F0B0 /* FFAuthorListReformer.h in Headers */,
 			);
