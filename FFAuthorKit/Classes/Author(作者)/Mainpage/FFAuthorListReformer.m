@@ -8,6 +8,7 @@
 
 #import "FFAuthorListReformer.h"
 #import <UIKit/UIKit.h>
+#import "FFAuthorListReformerKeys.h"
 
 @implementation FFAuthorListReformer
 
