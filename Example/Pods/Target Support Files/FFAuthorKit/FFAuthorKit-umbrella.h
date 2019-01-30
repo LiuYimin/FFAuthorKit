@@ -11,6 +11,7 @@
 #endif
 
 #import "FFAuthorDetailController.h"
+#import "FFAuthorKit.h"
 #import "AuthorAPIRequest.h"
 #import "FFAuthorCell.h"
 #import "FFAuthorController.h"
